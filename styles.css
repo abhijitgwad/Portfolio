@@ -1,0 +1,396 @@
+body {
+    background-color: #dcdab2;
+    background-color: #EEEDDE;
+    background: url(image/Darkimg1.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+#foo {
+    font-size: 30px;
+    position: fixed;
+    bottom: 35%;
+    right: 7%;
+    line-height: 2;
+    
+  }
+
+a:hover{
+    text-decoration: none;
+}
+
+
+hr {
+    border: 5px dotted gray;
+    width: 50%;
+    border-style: solid none none none;
+    margin: 5% auto;
+}
+
+.me1 {
+    width: 100%;
+}
+
+.active1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*Title*/
+
+.navbar {
+    width: 100%;
+    height: 90px;
+    padding-left: 2%;
+    padding-right: 5%;
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+
+}
+
+.nav-item {
+    padding: 20px;
+}
+    
+.nav-link {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar-light .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4e5326;
+}
+
+.tt{
+    z-index: 1;
+    visibility: visible;
+}
+
+#title {
+    text-align: left;
+    padding: 15%;
+    /* background-color: #003fec; */
+}
+
+
+#mynavbutton{
+    padding-top: 50px;
+    color: white;
+    font-size: 50px;
+}
+
+.title-heading {
+    color: #9EB23B;
+    color: white;
+    font-size: 90px;
+    width: 100%;
+    margin: 0%;
+    line-height: 1.5;
+    font-family: 'Dosis';
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.title-subheading {
+    color: rgb(238, 255, 0);
+    color: rgb(255, 197, 126);
+    width: 100%;
+    margin: 0%;
+    padding-top: 8%;
+
+}
+
+.me {
+    margin-left: 15%;
+    border: 4px solid black;
+}
+
+@media (max-width:1400px) {
+    #title {    
+    }
+
+    .me {
+        margin: 12%;
+        border-radius: 100%;
+        border: 4px solid red;
+    }
+    
+    
+}
+
+
+/*About*/
+
+#about {
+    background-color: #043ace;
+    color: white;       
+    text-align: center;
+    padding: 15%;
+    padding-top: 7%;
+    
+    /* background: url(image/myimage2.jpg) no-repeat center center fixed; 
+    background-size: cover; */
+}
+
+
+.me2 {
+    width: 50%;
+    border-radius: 30%;
+}
+
+.about-heading {
+    font-size: 50px;
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 800;
+    padding: 5%;
+    padding-left: 0%;
+
+}
+
+.about-discription {
+    width: 70%;
+    text-align: left;
+    color: white;
+    font-family: "Cabin", sans-serif;
+    font-family: 'Anek Malayalam', sans-serif;
+    font-weight: 100;
+}
+
+.pp{
+    width: 100%;
+    
+}
+
+
+
+@media (max-width:900px){
+    
+}
+
+@media (max-width:1400px) {
+    .me2 {
+        margin: 15%;
+    }
+
+    
+}
+
+
+
+/*project-section*/
+
+#web-project {
+    padding: 7% 15%;
+    text-align: center;
+    background: url(image/myimage3.jpg) no-repeat center center fixed; 
+    background-size: cover;
+}
+.game-project{
+    padding: 7% 15%;
+    text-align: center;
+    background: url(image/myimage5.jpg) no-repeat center center fixed; 
+    background-size: cover;
+}
+
+.container {
+    align-items: stretch;
+}
+
+.row {
+    display: flex;
+}
+
+.card {
+    box-shadow: 1px 0px 30px 0.5px rgba(104, 103, 103, 0.337);
+    border: 6px solid rgb(31, 31, 31);
+    border-top: 20px solid rgb(31, 31, 31);
+    border-radius: 10px;
+
+}
+
+.card:hover {
+    box-shadow: 2px 1px 20px 3px rgba(104, 103, 103, 0.492);
+}
+
+.card-header {
+    padding: 0;
+}
+
+.project-img {
+    width: 100%;
+}
+
+
+
+
+.project-subheading {
+    padding-top: 7%;
+    padding-bottom: 5%;
+    color: white;
+}
+
+.project-heading {
+    font-family: 'Bebas Neue';
+    padding-top: 10%;
+    padding-bottom: 7%;
+    font-size: 50px;
+    color: white;
+}
+
+.col-lg-4 {
+    padding: 4%;
+}
+
+@media (max-width:1300px) {}
+
+
+/* skill-section */
+
+#skill{
+    padding: 7% 15%;
+    background-color: #003fec;
+    /* background: url(image/myimage3.jpg) no-repeat center center fixed; 
+    background-size: cover; */
+    line-height: 2;
+    text-align: center;
+}
+
+.skill {
+    font-size: 50px;
+    text-align: left;
+    font-family: 'Cabin', sans-serif;
+    font-weight: bolder;
+    padding: 5%;
+    padding-left: 0%;
+    color: white;
+}
+
+.skill-heading{
+    font-family: 'Cabin', sans-serif;
+    font-weight: bolder;
+}
+
+.skill-content{
+    background-color: white;
+    color:#003fec;
+    margin : 2%;
+    padding: 2%;
+    box-shadow: 2px 1px 20px 3px rgba(104, 103, 103, 0.492);
+}
+
+.skill-content:hover{
+    box-shadow: 2px 1px 20px 3px rgba(47, 46, 46, 0.492);
+}
+
+.skill-subcontent {
+    width: 70%;
+    text-align: left;
+    font-family: "Cabin", sans-serif;
+    font-family: 'Anek Malayalam', sans-serif;
+    font-weight: 100;
+}
+
+
+
+/* Contact section */
+
+#contact{
+    padding: 7% 15%;
+    background-color: #141E27;
+    color:#EEEDDE;  
+}
+
+.line{
+    border: 1px white;
+    width: 100%;
+    border-style: solid none none none;
+    margin: 5% auto;
+}
+
+.contact-colomn{
+    padding: 7%;
+}
+
+
+.contact-content{
+    font-size: 13px;
+}
+.icon{
+    margin-top: 30px;
+}
+.contact-icon{
+    font-size: 20px;
+    color: #141E27;
+    background-color: white;
+    border-radius: 100%;
+    margin: 0px 5px;
+    margin-top:5%;
+    padding: 4px 9px;
+}
+.myname{
+    position: relative;
+    left: 60px;
+    top: 50px;
+    font-size: 14px;
+}
+
+
+
+
+/************************************/
+
+
+.intro1 {
+    animation: 4s anim-lineUp ease-out ;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateX(-80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+
+.intro2 {
+    animation: 4s anim-lineUp ease-out ;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateX(-80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+
+
+  
